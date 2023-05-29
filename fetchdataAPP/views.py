@@ -4,3 +4,7 @@ from .models import UserComments
 from django.http import JsonResponse
 
 # Create your views here.
+
+# CREATING VIEW FUNCTION
+def form_view(request):
+  form = CommentForm()
