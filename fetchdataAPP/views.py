@@ -8,3 +8,6 @@ from django.http import JsonResponse
 # CREATING VIEW FUNCTION
 def form_view(request):
   form = CommentForm()
+  
+  if request.method == 'POST':
+    form = CommentForm(request.POST)
