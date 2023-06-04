@@ -14,3 +14,8 @@ def form_view(request):
     
     if form.is_valid():
       cd = form.cleaned_data
+      uc = UserComments(
+        first_name = cd['first_name'],
+        last_name = cd['last_name'],
+        comment = cd['comment'],
+      )
