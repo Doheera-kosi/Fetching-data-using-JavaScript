@@ -11,7 +11,14 @@
   
   <title>Comment Section</title>
 </head>
-<body>
-  
+<body class="bg-light">
+  <div class="container pt-4">
+    <h1>User Comments</h1>
+    <form method="POST" id="form">
+      {%csrf_token%}
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
 </body>
 </html>
