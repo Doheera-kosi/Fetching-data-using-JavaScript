@@ -28,7 +28,7 @@
     function submitHandler(e) {
       e.preventDefault();
 
-      fetch(form.action, {metho: 'POST', body: new FormData(form)})
+      fetch(form.action, {method: 'POST', body: new FormData(form)})
       .then(response=>response.json())
       .then(data=>{
         if (data.message === 'success') {
