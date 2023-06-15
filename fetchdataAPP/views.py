@@ -20,5 +20,8 @@ def form_view(request):
         comment = cd['comment'],
       )
       uc.save()
+      return JsonResponse({
+        'message': 'success'
+      })
   
   return render(request, 'blog.html', {'form':form})
