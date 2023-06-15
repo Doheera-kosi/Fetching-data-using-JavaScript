@@ -20,6 +20,9 @@
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
+![Image Description](assets/img/userComments.png)
+![Image Description](assets/img/userComments1.png)
+
 ## About the Project <a name="about-project"></a>
 
 The project demonstrates how to use JavaScript in a Django application to process a form. Specifically, it focuses on creating a comment section for a food blog called "Little Lemon." The form data entered by users is updated using an API endpoint and added to a MySQL database using Django models.
