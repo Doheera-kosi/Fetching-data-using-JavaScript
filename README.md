@@ -21,6 +21,7 @@
 - [License](#license)
 
 ![Image Description](assets/img/userComments.png)
+
 ![Image Description](assets/img/userComments1.png)
 
 ## About the Project <a name="about-project"></a>
