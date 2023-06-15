@@ -128,7 +128,7 @@ To deploy the Django project to a production environment, follow these steps:
 
 ## Authors <a name="authors"></a>
 
-- John Doe - [GitHub](https://github.com/johndoe)
+- Evans Kupour - [GitHub](https://github.com/Doheera-kosi/)
 
 ## Future Features <a name="future-features"></a>
 
@@ -153,8 +153,7 @@ If you find this project helpful or interesting, please give it a ⭐️ on GitH
 ## Acknowledgements <a name="acknowledgements"></a>
 
 - [Django Documentation](https://docs.djangoproject.com/)
-- [React Documentation](https://reactjs.org/docs/)
-- [Express.js Documentation](https://expressjs.com/en/4x/api.html)
+en/4x/api.html)
 
 ## License <a name="license"></a>
 
